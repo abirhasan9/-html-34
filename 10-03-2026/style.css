@@ -1,0 +1,54 @@
+*{
+
+margin: 2px;
+padding: o;
+box-sizing: border-box;
+}
+
+
+.nav{
+    display: flex;
+background-color: rgb(31, 130, 130);
+;
+
+}
+.ul{
+
+display: flex;
+list-style: none;
+gap: 5px;
+margin-left: auto
+
+}
+li:hover{
+    background-color: aqua;
+}
+.logo{
+color: black;
+display: flex;
+gap: 30px;
+}
+body{
+    
+}
+.nav .ul a{ display: flex;
+    
+    text-decoration: none;
+}
+.banar img{
+
+    height: 100%; width: 100%;
+}
+
+.menu h2{
+  
+}
+.item img{
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+.m-item .item{ display: flex;
+text-align: center;
+justify-content: center;
+}
