@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+
+
+
+*{
+  margin: 5px;
+padding: 5px;
+box-sizing: border-box;
+}
+
+.h1{display: flex;
+    background-color: green;
+height: 100px;
+
+justify-content: center;
+text-align: center;
+font-size: x-large;
+}
+.h2{
+
+ display: flex;
+text-align: center;
+justify-content: center;
+
+
+}
+.sec{
+
+    background-color: antiquewhite;
+    padding: 30px;
+}
+.b{
+    display: flex;
+    margin: auto;
+}
+.ol {
+
+display: flex;
+text-decoration: none;
+list-style: none;
+gap: 30px;
+
+}
+a{
+display: flex;
+text-decoration: none;
+
+}
+.nav{
+
+    background-color: aqua;
+}
+.as{ display: flex;
+width: 40%;
+background-color: brown;
+font-size: 5ch;
+
+
+
+}
+.main{
+
+background-color: cadetblue;
+width: 60%;
+font-size: 5ch;
+
+
+}
+.sec1{ background-color: blue;
+display: flex;
+width: 100vw;
+height: 80vh;
+}
+.f{
+    display: flex;
+  background-color: blueviolet;
+ text-align: center;
+justify-content: center;
+font-size: 5ch;
+}
+.p1{
+font-family: "Delius&display";
+
+}
+.icon{ 
+  
+ font-size: 4rem;
+background-color: green;
+
+
+}
