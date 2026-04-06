@@ -1,0 +1,9 @@
+.efect a:hover{
+
+    color: red;
+    background-color: black;
+    border-radius: 10px;
+}
+.caro img{
+    height: 100vh;
+}
