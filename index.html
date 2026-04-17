@@ -1,67 +1,231 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
- <table border="">
-    <tr>
-        <th>name</th>
-        <th>contact</th>
-        <th>country</th>
-    </tr>
-    <tr>
-        <td>sourav</td>
-        <td>01983956607</td>
-        <td>bangladesh</td>
-    </tr>
-    <tr>
-        <td>tayba</td>
-        <td>019277776</td>
-        <td>china</td>
-    </tr>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>logo web</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.8-dist/css/bootstrap.min.css"
+    />
 
- </table>
- <br><br>
- <form>
-<label for="firstname">First Name</label><br>
-<input type="text" name="firstname" id="" placeholder="type your name">
-<br>
-<label for="lastname">Last Name</label><br>
-<input type="text" name="lastname" id="" placeholder="type your name">
-<br>
-<label for="emailadress">Email Address</label><br>
-<input type="email" name="emailadress" id="" placeholder="type your email">
-<br>
-<label for="number">Contact Number</label><br>
-<input type="number" name="number" id="" placeholder="type your number"><br>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./img/6b21a693-1566-4468-8854-d87dd5fd1bec.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/6025059.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/food_web_banner_31.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- feedback -->
+    <section>
+      <div class="container">
+        <h2 class="text-center fw-bold border-start border-danger">Feedback</h2>
+        <p class="small text-center text-muted">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+          architecto labore, consequuntur quas inventore cumque?
+        </p>
+        <div class="d-flex">
+          <img
+            width="200px"
+            height="200px"
+            src="./img/handsome-young-cheerful-man-with-arms-crossed_171337-1073.avif"
+            alt=""
+            class="rounded-circle mt-3"
+          />
+          <div>
+            <p class="p-3 text-center">
+              "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              commodi, impedit illum culpa odit reiciendis velit mollitia vero
+              aspernatur sint?"
+            </p>
+            <h5 class="text-center">Abir Hasan</h5>
+            <div class="text-center">
+                <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section>
+      <footer class="bg-warning">
+        <div class="container">
+          <div class="row pt-3 border-bottom border-dark">
+            <div class="col-4">
+              <div>
+                <img
+                  src="./img/red-crab.webp"
+                  alt=""
+                  width="100px"
+                  class="img-fluid rounded-pill"
+                />
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis rerum aperiam facilis aliquid voluptatibus maiores
+                reiciendis accusantium consequatur facere recusandae? Nostrum
+                aut saepe totam eius obcaecati voluptatum debitis maxime enim.
+              </p>
+            </div>
+            <div class="col-4 text-center">
+              <h4>Quick Links</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-decoration-none text-danger fs-5"
+                    >Popular</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-danger fs-5"
+                    >Popular</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-danger fs-5"
+                    >Popular</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-danger fs-5"
+                    >Popular</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <h4 class="text-center">About US</h4>
+              <div class="input-group">
+                <input
+                  type="Email"
+                  placeholder="Enter Your Emails"
+                  class="form-control"
+                />
+                <button class="btn btn-outline-success">Submit</button>
+              </div>
+              <p class="small text-muted pb-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Labore, recusandae?
+              </p>
+              <div class="text-center fs-2">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <p class="text-center">© 2026 GitHub, Inc</p>
+        </div>
+      </footer>
+    </section>
 
-<label for="country">Country</label><br>
-<select name="country" id="">
-    <option value="Bangladesh">Bangladesh</option>
-    <option value="United Kingdom">United Kingdom</option>
-    <option value="United States of America">United States of America</option>
-    <option value="Canada">Canada</option>
-    <option value="England">England</option>
-</select>
-<br><br>
-<h3>Gender</h3>
-
-<input type="radio" name="gender" id="">
-<label for="gender">Male</label>
-<input type="radio" name="gender" id="">
-<label for="gender">Female</label>
-<input type="radio" name=""gender>
-<label for="gender">Others</label><br>
-<label for="iagree">I agree</label>
-<input type="checkbox" name="iagree" id=""><br>
-<label for="dont">Dont Like</label>
-<input type="checkbox" name="dont" id="">
-<br><br>
-<input type="submit" name="" id=""><br><br><br>
-
- </form>
-</body>
+    <script src="./script.js"></script>
+    <script src="./bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
