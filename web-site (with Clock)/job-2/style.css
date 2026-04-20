@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.navbar{
+    background-color: red;
+}
+.nav-item a:hover{
+    background-color: black;
+    border-radius: 50px;
+    color: red;
+}
+.carousel-item{
+    height: 100vh;
+}
