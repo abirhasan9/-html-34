@@ -1,0 +1,6 @@
+.nav-item a:hover{
+    color: red;
+   background-color: black;
+
+    border-radius: 50px;
+}
