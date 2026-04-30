@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abir Super Store</title>
+    <link
+      rel="shortcut icon"
+      href="./img/logo online.webp"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./product page.html" />
+    <link rel="stylesheet" href="./product detail page.html" />
+    <link rel="stylesheet" href="./Shopping Cart.html" />
+    <link rel="stylesheet" href="./Login.html" />
+    <link rel="stylesheet" href="./Signup.html" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.8-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <h4 class="me-4 text-info">abirhasan5246@gmail.com</h4>
+          <h4 class="text-info">01752461076</h4>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-success border-0"
+                  aria-current="page"
+                  href="#"
+                  >Wishlist</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-success border-0"
+                  aria-current="page"
+                  href="#"
+                  >Log In</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-success border-0"
+                  aria-current="page"
+                  href="#"
+                  >Register</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navber -->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"
+            ><img src="./img/logo online.webp" width="40px" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-info"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-info"
+                  aria-current="page"
+                  href="./product page.html"
+                  >Product</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-info"
+                  aria-current="page"
+                  href="./product detail page.html"
+                  >product Details</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-info"
+                  aria-current="page"
+                  href="./Shopping Cart.html"
+                  >Cart</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-info"
+                  aria-current="page"
+                  href="./Login.html"
+                  >Log In</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-info"
+                  aria-current="page"
+                  href="./Signup.html"
+                  >Sign Up</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <div class="fs-3 me-3">
+                <a href="./Shopping Cart.html"
+                  ><i class="fa-solid fa-cart-arrow-down fa-bounce"></i
+                ></a>
+              </div>
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- page name -->
+    <section>
+      <div class="container text-center mt-3">
+        <h3 class="fw-bold">Product Cart Page</h3>
+        <div class="d-flex justify-content-center align-items-center">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Product Cart Page
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <!-- cart -->
+    <section>
+      <div class="container text-center shadow-lg p-3">
+        <div class="row">
+          <div class="col-md-8">
+            <table
+              class="table justify-content-center align-content-center"
+            >
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Product</th>
+                  <th scope="col">price</th>
+                  <th scope="col">Quantity</th>
+                  <th scope="col">total</th>
+                  <th scope="col">Remove</th>
+                </tr>
+              </thead>
+              <tbody class="table-group-divider">
+                <tr>
+                  <th scope="row">1</th>
+                  <td>
+                    <div class="d-flex">
+                      <img
+                        src="./img/silver-iphone-17-pro-max.webp"
+                        width="50px"
+                        alt=""
+                      />iphone-17-pro-max
+                    </div>
+                  </td>
+                  <td>$1299</td>
+                  <td class="d-flex justify-content-center">
+                    <div><i class="fa-solid fa-square-minus"></i></div>
+                    <div class="">
+                      <input type="number" style="width: 60px" />
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-square-plus"></i>
+                    </div>
+                  </td>
+                  <td>$1299</td>
+                  <td><i class="fa-solid fa-square-xmark"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>
+                    <div class="d-flex">
+                      <img
+                        src="./img/silver-iphone-17-pro-max.webp"
+                        width="50px"
+                        alt=""
+                      />iphone-17-pro-max
+                    </div>
+                  </td>
+                  <td>$1299</td>
+                  <td class="d-flex justify-content-center">
+                    <div><i class="fa-solid fa-square-minus"></i></div>
+                    <div class="">
+                      <input type="number" style="width: 60px" />
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-square-plus"></i>
+                    </div>
+                  </td>
+                  <td>$1299</td>
+                  <td><i class="fa-solid fa-square-xmark"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>
+                    <div class="d-flex">
+                      <img
+                        src="./img/silver-iphone-17-pro-max.webp"
+                        width="50px"
+                        alt=""
+                      />iphone-17-pro-max
+                    </div>
+                  </td>
+                  <td>$1299</td>
+                  <td class="d-flex justify-content-center">
+                    <div><i class="fa-solid fa-square-minus"></i></div>
+                    <div class="">
+                      <input type="number" style="width: 60px" />
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-square-plus"></i>
+                    </div>
+                  </td>
+                  <td>$1299</td>
+                  <td><i class="fa-solid fa-square-xmark"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>
+                    <div class="d-flex">
+                      <img
+                        src="./img/silver-iphone-17-pro-max.webp"
+                        width="50px"
+                        alt=""
+                      />iphone-17-pro-max
+                    </div>
+                  </td>
+                  <td>$1299</td>
+                  <td class="d-flex justify-content-center">
+                    <div><i class="fa-solid fa-square-minus"></i></div>
+                    <div class="">
+                      <input type="number" style="width: 60px" />
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-square-plus"></i>
+                    </div>
+                  </td>
+                  <td>$1299</td>
+                  <td><i class="fa-solid fa-square-xmark"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>
+                    <div class="d-flex">
+                      <img
+                        src="./img/silver-iphone-17-pro-max.webp"
+                        width="50px"
+                        alt=""
+                      />iphone-17-pro-max
+                    </div>
+                  </td>
+                  <td>$1299</td>
+                  <td class="d-flex justify-content-center">
+                    <div><i class="fa-solid fa-square-minus"></i></div>
+                    <div class="">
+                      <input type="number" style="width: 60px" />
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-square-plus"></i>
+                    </div>
+                  </td>
+                  <td>$1299</td>
+                  <td><i class="fa-solid fa-square-xmark"></i></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- samary -->
+          <div class="col-md-4">
+            <!-- coupun -->
+            <div>
+              <form class="d-flex mt-5 input-group mb-3" role="search">
+                <div class="fs-3 me-3">
+                  <a href="./Shopping Cart.html"
+                    ><i class="fa-solid fa-cart-arrow-down fa-bounce"></i
+                  ></a>
+                </div>
+                <input
+                  class="form-control"
+                  type="search"
+                  placeholder="Coupon Code"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Apply
+                </button>
+              </form>
+            </div>
+            <!-- only samary -->
+
+            <div>
+              <table class="table text-start pt-2">
+                <thead>
+                  <tr>
+                    <th scope="col">Summary</th>
+                   
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row" class="d-flex justify-content-between"> <span>Shipping</span> <span>$10</span></td>
+                   
+                  </tr>
+                  <tr>
+                    <td scope="row" class="d-flex justify-content-between"> <span>Shipping</span> <span>$10</span></td>
+                   
+                  </tr>
+                  <tr>
+                    <td scope="row" class="d-flex justify-content-between"> <span>Shipping</span> <span>$10</span></td>
+                   
+                  </tr>
+                  <tr>
+                    <td scope="row" class="d-flex justify-content-between fw-bold"> <span>Shipping</span> <span>$10</span></td>
+                   
+                  </tr>
+                  
+                
+                </tbody>
+              </table>
+              <div><tr> <button class="btn btn-success w-100">Checkout</button></tr></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="container-fluid bg-warning mt-4 pt-4 border-bottom">
+        <div class="container text-center border-bottom">
+          <div class="row align-items-start">
+             <h2 class="text-success" id="clock"></h2>
+            <div class="col">
+              <img src="./img/logo online.webp" width="100px" />
+              <h3>Abir Online Shop</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti rerum perferendis illo laboriosam architecto nemo nihil
+                enim sed possimus veritatis?
+              </p>
+            </div>
+            <div class="col">
+              <h3>Quick Links</h3>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-decoration-none link-dark fs-5"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none link-dark fs-5"
+                    >Best Product</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none link-dark fs-5"
+                    >Our Games</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none link-dark fs-5"
+                    >offer product</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none link-dark fs-5"
+                    >Shopping List</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none link-dark fs-5"
+                    >Shop Now</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <h3>Follow Us</h3>
+              <div class="d-flex justify-content-center fs-2">
+                <a href=""><i class="fa-brands fa-facebook text-dark"></i></a>
+                <a href=""><i class="fa-solid fa-face-smile text-dark"></i></a>
+                <a href=""><i class="fa-solid fa-user text-dark"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin text-dark"></i></a>
+              </div>
+              <form class="d-flex mt-5" role="search">
+                <div class="fs-3 me-3">
+                  <a href="./Shopping Cart.html"
+                    ><i class="fa-solid fa-cart-arrow-down fa-bounce"></i
+                  ></a>
+                </div>
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <h5 class="text-center pb-4">Copyright &copy; 2026 by Abir Hasan</h5>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="./bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

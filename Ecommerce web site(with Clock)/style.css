@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner img{
+    height: 100vh;
+
+}
+.zoom{
+    overflow: hidden;
+}
+.zoom img{
+    transition: transfrom 0.3sease;
+    
+}
+.zoom img:hover{
+    transform: scale(1.3);
+}
